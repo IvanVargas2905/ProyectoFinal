@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Se establece la codificación de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Se configura la vista para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Se establece el título de la página -->
+    <title>PaginaPC</title>
+    <!-- Se enlaza el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Se repite la configuración de la vista para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Fondo de tres colores utilizando gradientes lineales */
+        body {
+            background-image: linear-gradient(to right, rgb(28, 140, 204), rgb(255, 140, 0), rgb(28, 140, 204));
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Se establece el nombre de la marca en la barra de navegación -->
+        <a class="navbar-brand" href="#">Pintucasa</a>
+        <!-- Botón de alternancia para la navegación responsiva -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenedor de los elementos de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Lista de elementos de navegación -->
+            <ul class="navbar-nav">
+                <!-- Elemento de navegación activo -->
+                <li class="nav-item active">
+                    <!-- Enlace al archivo "vinilicas.html" -->
+                    <a class="nav-link" href="vinilicas.html">Vinilicas<span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Otros elementos de navegación -->
+                <li class="nav-item">
+                    <a class="nav-link" href="Esmaltes.html">Esmaltes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ferreteria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://tiendaiusa.com/">IUSA</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cuadrícula de tarjetas -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Primera tarjeta -->
+            <div class="col-md-4 col-sm-2">
+                <div class="card">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_609072-MLM73104211571_112023-F.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">La mas comprada 😺</h5>
+                        <p class="card-text">Magicolor, pintura de 4 años al exterior, vini-acrilica, 18 colores de linea, 4000 colores que cualquiera guste, acabado mate </p>
+                        <a href="https://www.gruposayer.com/v2/pinturas_arquitectonicas/pinturas_y_selladores/pintura_vinil_acrilica_magicolor_VG0XXX" target="_blank" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Segunda tarjeta -->
+            <div class="col-md-4 col-sm-2">
+                <div class="card">
+                    <img src="https://scontent.fcuu1-1.fna.fbcdn.net/v/t39.30808-6/298448054_442586851244689_9155758923036055275_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHjeMGUDxa612H2U1Z814acg1NbjpJyO0GDU1uOknI7QeHWjBsg9X6W0g1GVaT2--NX6hPgAUi9vpP_TBltMczC&_nc_ohc=BAEwfgPh84oAX-sMdFl&_nc_ht=scontent.fcuu1-1.fna&oh=00_AfC9klixeQOinv35QW8o82oxQtT6gaRlNHa-4tRJpWlnnQ&oe=65C917BF" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Herramienta Total 🛠️</h5>
+                        <p class="card-text">Un pequeño catalogo de las herramientas Total, podemor tener de todo de lo que buscas y si no lo tenemos se lo conseguimos de un dia para otro. </p>
+                        <a href="https://tiendaiusa.com/" target="_blank" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tercera tarjeta -->
+            <div class="col-md-4 col-sm-2">
+                <div class="card">
+                    <img src="https://scontent.fcuu1-1.fna.fbcdn.net/v/t39.30808-6/308756392_578549127401974_1221419328486710524_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHNBW4ca0D72RKRkCn9-Ok4gQPcteTogguBA9y15OiCC6090eofQ_VCfuODvFnIeswv0fWXYoELDcOu0eWjtnH2&_nc_ohc=pD6JdGBgtNsAX-NAfnv&_nc_ht=scontent.fcuu1-1.fna&oh=00_AfD2OQ38aKbVv4DUbtEHsbz0Pg-Dq3x_jWp38PsbcaAC2Q&oe=65C87E61" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Conocenos 🎨</h5>
+                        <p class="card-text">Aqui nos puedes conocer, donde estamos ubicados, a que hora abrimos, telefonos</p>
+                        <a href="Conocenos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Incluir Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
